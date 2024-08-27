@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="">
         <ul className="flex justify-between pt-[47px] gap-7">
           <li className=" text-[#565656] font-semibold text-[18px] hover:[#fff]">
-            <a href="" className="hover:text-blue-500 ">
+            <a href="/" className="hover:text-blue-500 ">
               Home
             </a>
           </li>

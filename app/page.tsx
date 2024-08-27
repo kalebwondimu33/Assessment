@@ -5,5 +5,10 @@ import Footer from "@/components/Footer";
 import RelatedBlog from "@/components/RelatedBlog";
 
 export default function Home() {
-  return <RelatedBlog />;
+  return (
+    <>
+      <NavBar />
+      <Footer />
+    </>
+  );
 }
