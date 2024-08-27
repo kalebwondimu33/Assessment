@@ -8,22 +8,44 @@ const NavBar = () => {
       </div>
       <div className="">
         <ul className="flex justify-between pt-[47px] gap-7">
-          <li className=" text-[#565656] font-semibold text-[18px]">Home</li>
-          <li className=" text-[#565656] font-semibold text-[18px]">Teams</li>
-          <li className="text-[#565656] font-semibold text-[18px]">
-            Success Stories
+          <li className=" text-[#565656] font-semibold text-[18px] hover:[#fff]">
+            <a href="" className="hover:text-blue-500 ">
+              Home
+            </a>
           </li>
-          <li className="text-[#565656] font-semibold text-[18px]">About Us</li>
-          <li className=" text-[#565656] font-semibold text-[18px]">Blogs</li>
+          <li className=" text-[#565656] font-semibold text-[18px]">
+            <a href="" className="hover:text-blue-500 ">
+              Teams
+            </a>
+          </li>
           <li className="text-[#565656] font-semibold text-[18px]">
-            Get involved
+            <a href="" className="hover:text-blue-500 ">
+              Success Stories
+            </a>
+          </li>
+          <li className="text-[#565656] font-semibold text-[18px]">
+            <a href="" className="hover:text-blue-500 ">
+              About Us
+            </a>
+          </li>
+          <li className=" text-[#565656] font-semibold text-[18px]">
+            <a href="" className="hover:text-blue-500 ">
+              Blogs
+            </a>
+          </li>
+          <li className="text-[#565656] font-semibold text-[18px]">
+            <a href="" className="hover:text-blue-500 ">
+              Get involved
+            </a>
           </li>
         </ul>
       </div>
       <div className=" ">
-        <ul className="flex pt-[47px] gap-7">
+        <ul className="flex pt-[47px] gap-7 ">
           <li className="text-[#3C3C3C]">Login</li>
-          <li className="bg-[#264FAD] text-white">Donate</li>
+          <li className="bg-[#264FAD] py-2 px-4 text-white rounded-[10px]">
+            Donate
+          </li>
         </ul>
       </div>
     </nav>

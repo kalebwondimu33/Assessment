@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-between p-3 mb-5">
+      <div className="flex justify-between p-3 mb-5 mt-[100px]">
         <div>
           <Image
             src="/assets/footer-image.svg"
@@ -57,10 +57,12 @@ const Footer = () => {
             height={25}
             alt="copy-right image"
           />{" "}
-          2020 Africa to Silicon Valley, Inc. All right reserved.
+          <span className="text-[#C7C7C7]">
+            2020 Africa to Silicon Valley, Inc. All right reserved.
+          </span>
         </div>
         <div>
-          <ul className="flex gap-8">
+          <ul className="flex gap-8 items-center">
             <li>
               <Image
                 src="/assets/Twitter.svg"
