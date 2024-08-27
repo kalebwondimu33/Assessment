@@ -29,7 +29,7 @@ const NavBar = () => {
             </a>
           </li>
           <li className=" text-[#565656] font-semibold text-[18px]">
-            <a href="" className="hover:text-blue-500 ">
+            <a href="/blogs" className="hover:text-blue-500 ">
               Blogs
             </a>
           </li>
